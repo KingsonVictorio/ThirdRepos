@@ -39,6 +39,8 @@ namespace Ticketing
                 { mSection = 2; }
             if (radBox.Checked)
                 { mSection = 3; }
+            if (radBack.Checked)  //added by Kingson
+                { mSection = 4; }  //added by Kingson
 
             mTicketPrice = new TicketPrice(mSection, mQuantity, mDiscount);
 
